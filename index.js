@@ -6,8 +6,8 @@ const app = express();
 app.use(bodyParser.json());
 
 // Replace with your credentials
-const BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
-const IMGBB_API_KEY = "YOUR_IMGBB_API_KEY";
+const BOT_TOKEN = "7436631796:AAEVaXqNVBWlju6sVqOntVanJC-LUQP8dxM";
+const IMGBB_API_KEY = "10b711c5b7e59b2c6bf9843372d43d9b";
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
 // Handle Telegram updates
